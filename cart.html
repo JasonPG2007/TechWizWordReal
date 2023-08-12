@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/cart.css">
+    <link rel="icon" href="img/favicon.png">
+    <title>Cart Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-controls">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Categories.html">Categories</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="right-controls">
+                <div class="search-box">
+                    <form action="">
+                        <input type="text" placeholder="Search..." required>
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+
+                <div class="cart-icon">
+                    <a href="checkout.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                </div>
+            </div>
+    </header>
+    <!-- cart page begin  -->
+    <section id="cart-container">
+        <div class="header-cart">
+            <h2>Shoping Cart</h2>
+            <div class="header-cart-line"></div>
+        </div>
+        <table class="header-table">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Images</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <!-- Products will be inserted here -->
+        </table>
+
+        <!-- form cart bottom  -->
+        <div class="cart-bottom">
+            <div class="coupon">
+                <input class="input-coupon" type="text" placeholder="Coupon code">
+                <button class="btn-coupon">Apply Coupon</button>
+            </div>
+            <div class="update">
+                <button class="btn-update">Update Cart</button>
+            </div>
+        </div>
+
+        <!-- form cart total  -->
+        <div class="cart-total">
+            <h5>Cart Total</h5>
+            <div class="subtotal">
+                <h6>Subtotal</h6>
+                <h6>$111.95</h6>
+            </div>
+            <div class="total">
+                <h6>Total</h6>
+                <h6>$111.95</h6>
+            </div>
+        </div>
+        <a href="#" class="btn-checkout">Proceed To Checkout</a>
+    </section>
+    <!-- cart page end  -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <img src="img/logo.png">
+                        <p>Aptech Softech</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h3>Contact Social Network</h3>
+                        <a href=""><img src="img/facebook.png"></a>
+                        <a href=""><img src="img/twitter.png"></a>
+                        <a href=""><img src="img/pinterest.png"></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <p>123 Street, City, Country</p>
+                        <p>Email: info@example.com</p>
+                        <p>Phone: +123 456 789</p>
+                        <img src="img/payments.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="width: 50%;border-top: 1px solid #a7cca2;">
+        <p style="color: #8dba87;">&copy; 2023 My Website <i class="fa-solid fa-heart" style="color: red;"></i> All
+            rights reserved.</p>
+    </footer>
+</body>
+<script src="JS/cart.js"></script>
+
+</html>
